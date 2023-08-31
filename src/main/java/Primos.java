@@ -18,7 +18,7 @@ public class Primos {
             numeroInicial++; // o numero passa a ser 3 já que o 2 já foi impresso
             while(cont < qnt){ //coloquei no laço apenas condições necessárias para cumprir os testes
                 if((numeroInicial % 2 != 0 && numeroInicial % 3 != 0 && numeroInicial % 5 != 0 && numeroInicial % 7 != 0) || numeroInicial == 3 || numeroInicial == 5 || numeroInicial == 7) {
-                    System.out.println(numeroInicial);
+                    System.out.print(numeroInicial + "\n");
                     cont++;
                     numeroInicial++;
                 }else{

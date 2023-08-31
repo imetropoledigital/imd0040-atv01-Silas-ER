@@ -11,7 +11,7 @@ public class Primos {
         if(qnt == 1){
             System.out.print(numeroInicial + "\n"); //caso a entrada seja 1 ja imprime o primeiro primo no caso o 2
         } else if (qnt == 0) {
-            System.out.print("\n");
+            System.out.print("");
         } else{
             System.out.print(numeroInicial + "\n"); //caso nao seja imprime o primeiro primo
             cont++; // o contador passa a ser 1 ja que apareceu o primeiro primo
